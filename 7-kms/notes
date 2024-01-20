@@ -1,0 +1,10 @@
+Generate ssm parameters using the management console
+Generate ssm parameters using terraform (destroy special behaviour)
+
+Consulta de valores vía CLI
+    aws ssm get-parameter --name nombreDelParametro(Path) --profile perfilAUsar --region eu-west-1
+Devuelve un json
+    aws ssm get-parameter --name ... > prueba.json
+
+
+
