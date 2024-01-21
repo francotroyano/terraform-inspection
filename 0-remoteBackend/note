@@ -1,0 +1,2 @@
+Backend configuration on AWS to share tfstate in S3
+Create AWS_S3_Bucket and DynamoDB table
