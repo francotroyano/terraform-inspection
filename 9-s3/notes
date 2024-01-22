@@ -1,3 +1,4 @@
 1.- Create an S3 bucket
 2.- Create a versioning enabled S3 bucket
 3.- Create a KMS key and an S3 bucket crypted with the SSE-KMS
+4.- Create a bucket with a bucket policy associated to enforce HTTPS

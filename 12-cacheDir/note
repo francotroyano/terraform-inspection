@@ -1,0 +1,3 @@
+Generate TF_PLUGIN_CACHE_DIR env. variable to system level so 
+all the providers executables will be stored in the PATH, so this 
+reduce drastically the size of my local repo

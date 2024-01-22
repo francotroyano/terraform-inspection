@@ -1,6 +1,8 @@
 1.- Condigurar el CVS git en nuestro proyecto en local
 2.- Generar el repo en GitHub y configurarlo como el remote "origin" en local
 3.- Conf. backend (state file) para que esté compartido en AWS (S3 + DynamoDB control del lock)
-4.- Generar un CICD Pipeline
-5.- Mirar TerraGrunt 
-6.- Testing en Terraform con Terratest
+4.- Generar variable TF_PLUGIN_CACHE_DIR (usuario y sistema para que funcione) para cachear todos los plugins 
+(providers, modules... en una misma ruta y reducir el uso de disco y como prueba para entorno del stateless CICD pipeline)
+5.- Generar un CICD Pipeline
+6.- Mirar TerraGrunt
+7.- Testing en Terraform con Terratest
